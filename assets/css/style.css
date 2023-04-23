@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.wrapper,
+.portafolio {
+    width: 100%;
+    height: 100%;
+    background-color: #f6adac;
+    color: #0d486a;
+}
+
+.brand {
+    margin-top: -10px;
+}
+
+.brand span {
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em
+}
+
+.menu li {
+    list-style: none;
+    margin-top: 20px;
+
+}
+
+.menu {
+    display: flex;
+    width: 50%;
+    justify-content: space-around
+}
+
+h2 {
+    font-size: 60px
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.menu .active {
+    color: white;
+}
+
+.menu a:hover {
+    background-color: #0d486a;
+    transition: ease-in .4s;
+}
+
+.main {
+    margin: 0 auto;
+    width: 80%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.main p {
+    font-size: 1.2em;
+    padding-right: 2em;
+}
+
+h1 {
+
+    font-size: 3em;
+}
+
+span {
+    color: white
+}
+
+.main img {
+    border: solid 10px #0d486a;
+    padding: 20px;
+
+}
+
+.aboutme {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 100%;
+    align-items: center;
+    background-color: white;
+}
+
+.aboutme img {
+    width: 100%;
+    grid-column: 1/5;
+}
+
+.meinfo {
+    grid-column: 5/10;
+    padding: 3em;
+    color: #0d486a;
+}
+
+.meinfo h2 {
+    font-size: 3em;
+    color: #0d486a;
+
+}
+
+.meinfo p {
+    padding: 1em;
+    font-size: 1.2em;
+}
+
+.divider {
+    height: 4px;
+    width: 60px;
+    background-color: #f6adac;
+    margin-top: 2px;
+    margin-bottom: 2em
+}
+
+.portafolio-hobbie {
+    width: 100%;
+    padding: 1em;
+    text-align: center;
+    margin-bottom: -40px;
+}
+
+.portafolio-hobbie h2 {
+    font-size: 3em;
+}
+
+.portafolio .container {
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    height: 320px;
+    background-color: #ffdeba;
+    margin: 2em
+
+}
+
+.cardimg {
+    width: 100%;
+    height: 150px;
+    background-image: url(../img/Captura.PNG);
+    background-size: cover;
+    padding: 20px;
+}
+
+.container h2 {
+    font-size: 2em;
+}
+
+.cardtitulo {
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+.proyectoslinks {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.proyectoslinks a {
+    color: white;
+    text-decoration: none;
+}
+
+.proyectoslinks i {
+    font-size: 1.5em;
+
+}
+
+.card .sobreproyectos {
+    display: flex;
+    align-self: center;
+    margin: 0 auto;
+    margin: 1em;
+    width: 70%;
+}
+
+.botonproyectos a {
+    text-decoration: none;
+    color: white
+}
+.descarga {
+    padding:10px 20px; 
+    color: white;
+    background-color: #f6adac;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px white;
+    text-decoration: none;
+}
+
+.descarga:hover {
+    background-color: #0d486a;
+    transition: ease-in .4s;
+    
+    
+}
+.botonproyectos {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 10px;
+
+
+}
+.cardimg2 {
+    width: 100%;
+    height: 150px;
+    background-image: url(../img/asdsad.PNG);
+    background-size: cover;
+    padding: 20px;
+}
+.cardimg3 {
+    width: 100%;
+    height: 150px;
+    background-image: url(../img/asdasdsd.PNG);
+    background-size: cover;
+    padding: 20px;
+}
