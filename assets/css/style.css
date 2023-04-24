@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+background-color: #f6adac;
 }
 
 .wrapper,
@@ -99,7 +99,9 @@ span {
     width: 100%;
     align-items: center;
     background-color: white;
+
 }
+
 
 .aboutme img {
     width: 100%;
@@ -112,11 +114,14 @@ span {
     color: #0d486a;
 }
 
+
+
 .meinfo h2 {
     font-size: 3em;
     color: #0d486a;
-
 }
+
+
 
 .meinfo p {
     padding: 1em;
@@ -148,14 +153,16 @@ span {
     margin: 0 auto;
     display: flex;
     justify-content: center;
+    padding: 40px;
+    margin-bottom: 20px;
 }
 
 .card {
     width: 300px;
     height: 320px;
     background-color: #ffdeba;
-    margin: 2em
-
+    margin: 2em;
+    border: solid white 2px;
 }
 
 .cardimg {
@@ -203,8 +210,9 @@ span {
     text-decoration: none;
     color: white
 }
+
 .descarga {
-    padding:10px 20px; 
+    padding: 10px 20px;
     color: white;
     background-color: #f6adac;
     border: none;
@@ -218,9 +226,10 @@ span {
 .descarga:hover {
     background-color: #0d486a;
     transition: ease-in .4s;
-    
-    
+
+
 }
+
 .botonproyectos {
     display: flex;
     width: 100%;
@@ -229,6 +238,7 @@ span {
 
 
 }
+
 .cardimg2 {
     width: 100%;
     height: 150px;
@@ -236,6 +246,7 @@ span {
     background-size: cover;
     padding: 20px;
 }
+
 .cardimg3 {
     width: 100%;
     height: 150px;
@@ -243,3 +254,78 @@ span {
     background-size: cover;
     padding: 20px;
 }
+
+.hobbies {
+    background-color: #f6adac;
+    border: none;
+    text-align: center;
+}
+
+.container-contacto {
+    padding: 3em;
+    margin: 0 auto;
+
+}
+.contacto {
+    background-color:#0d486a
+}
+.contacto2 h2 {
+    font-size: 3em;
+    text-align: center;
+    color: white
+}
+
+.contacto-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 1px;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+    
+    width: 30%;
+    margin-top: 2em;
+}
+.formulario input {
+    padding: 10px 20px; 
+    margin-bottom: 1em;
+    background-color: white
+    border: none;
+    border-bottom: 1px solid #0d486a;
+    color: white;
+    width: 100%;
+}
+.formulario textarea {
+    height: 150px;
+    background-color: white
+    padding: 1.5em;
+    border: 1px solid
+
+}
+.btn-submit {
+    padding: 10px 20px;
+    margin: 1em;
+    border: none;
+    text-transform: uppercase;
+    background-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px white;
+}
+.btn-submit:hover {
+    background-color:white;
+    transition: ease-in .4s;
+
+}
+.container-contacto {
+padding: 0%;
+}
+.footer {
+    height: 3em;
+    line-height: 3em;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    }
