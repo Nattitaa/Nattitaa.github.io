@@ -1,0 +1,59 @@
+
+body {
+    font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.navbar {
+    background-color: #707070;
+}
+.navbar .navbar-brand{ 
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+    }
+
+.card {
+    width: 25rem;
+}
+.container {
+    display: flex;
+}
+.card-text {
+    font-size: 18px;
+    font-weight: bold;
+}
+.list-group-item {
+    font-size: 14px;
+}
+.list-group-item p {
+    text-align: right;
+    margin-top: 10px;
+}
+.list-group-item span {
+    color: #069740 ;
+    font-size: large;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+form {
+    width: 100%;
+    padding: 50px;
+    background-color: #707070;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+form h5 {
+    font-weight: bolder;
+}
+.btn {
+    background-color: white;
+}
+footer {
+    background-color: white;
+    text-align: center; 
+    padding: 10px;
+}
+footer h6 {
+    font-weight: bolder;
+}
